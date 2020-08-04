@@ -1,0 +1,66 @@
+body {
+    color: #333;
+    background-image: url(/img/background.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.first-class {
+    margin: auto;
+    width: 225px;
+    text-align: left;
+    border-radius: 10px;
+}
+.first-class > h2 { color: #6f6f6f; }
+.first-class > h2 > span { color: #dca48a; }
+
+input, input#tel::placeholder, .main-class, div.order, #popup { color: white; }
+div.order, .main-class, #popup { border-radius: 0px 0px 10px 10px; }
+.main-class, #popup, div.order { background: #b9826c; }
+
+.main {
+    width: 500px;
+    margin: auto;
+    padding-top: 30px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.main-class, #popup {
+    display: none;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.main-class > form { padding: 15px 30%; }
+
+#popup {
+    font-size: 12px;
+    padding: 15px 40px;
+}
+
+.top-popup {
+    font-size: 39px;
+    padding-bottom: 10px;
+}
+
+div.order {
+    padding: 20px 0;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid #986957;
+}
+
+input {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #dca48a;
+}
+input:active { background: #e49676; }
+input#tel { margin: 10px 0; }
+.error-tel { box-shadow: 0px 0px 5px 2px white; }
+.result { font-weight: bold; }
